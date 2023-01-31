@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.2" width="300mm" height="300mm" viewBox="0 0 30000 30000" preserveAspectRatio="xMidYMid" fill-rule="evenodd" stroke-width="28.222" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" xmlns:ooo="http://xml.openoffice.org/svg/export" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:presentation="http://sun.com/xmlns/staroffice/presentation" xmlns:smil="http://www.w3.org/2001/SMIL20/" xmlns:anim="urn:oasis:names:tc:opendocument:xmlns:animation:1.0" xml:space="preserve">
+ <defs class="ClipPathGroup">
+  <clipPath id="presentation_clip_path" clipPathUnits="userSpaceOnUse">
+   <rect x="0" y="0" width="30000" height="30000"/>
+  </clipPath>
+  <clipPath id="presentation_clip_path_shrink" clipPathUnits="userSpaceOnUse">
+   <rect x="30" y="30" width="29940" height="29940"/>
+  </clipPath>
+ </defs>
+ <defs class="TextShapeIndex">
+  <g ooo:slide="id1" ooo:id-list="id3 id4 id5 id6"/>
+ </defs>
+ <defs class="EmbeddedBulletChars">
+  <g id="bullet-char-template-57356" transform="scale(0.00048828125,-0.00048828125)">
+   <path d="M 580,1141 L 1163,571 580,0 -4,571 580,1141 Z"/>
+  </g>
+  <g id="bullet-char-template-57354" transform="scale(0.00048828125,-0.00048828125)">
+   <path d="M 8,1128 L 1137,1128 1137,0 8,0 8,1128 Z"/>
+  </g>
+  <g id="bullet-char-template-10146" transform="scale(0.00048828125,-0.00048828125)">
+   <path d="M 174,0 L 602,739 174,1481 1456,739 174,0 Z M 1358,739 L 309,1346 659,739 1358,739 Z"/>
+  </g>
+  <g id="bullet-char-template-10132" transform="scale(0.00048828125,-0.00048828125)">
+   <path d="M 2015,739 L 1276,0 717,0 1260,543 174,543 174,936 1260,936 717,1481 1274,1481 2015,739 Z"/>
+  </g>
+  <g id="bullet-char-template-10007" transform="scale(0.00048828125,-0.00048828125)">
+   <path d="M 0,-2 C -7,14 -16,27 -25,37 L 356,567 C 262,823 215,952 215,954 215,979 228,992 255,992 264,992 276,990 289,987 310,991 331,999 354,1012 L 381,999 492,748 772,1049 836,1024 860,1049 C 881,1039 901,1025 922,1006 886,937 835,863 770,784 769,783 710,716 594,584 L 774,223 C 774,196 753,168 711,139 L 727,119 C 717,90 699,76 672,76 641,76 570,178 457,381 L 164,-76 C 142,-110 111,-127 72,-127 30,-127 9,-110 8,-76 1,-67 -2,-52 -2,-32 -2,-23 -1,-13 0,-2 Z"/>
+  </g>
+  <g id="bullet-char-template-10004" transform="scale(0.00048828125,-0.00048828125)">
+   <path d="M 285,-33 C 182,-33 111,30 74,156 52,228 41,333 41,471 41,549 55,616 82,672 116,743 169,778 240,778 293,778 328,747 346,684 L 369,508 C 377,444 397,411 428,410 L 1163,1116 C 1174,1127 1196,1133 1229,1133 1271,1133 1292,1118 1292,1087 L 1292,965 C 1292,929 1282,901 1262,881 L 442,47 C 390,-6 338,-33 285,-33 Z"/>
+  </g>
+  <g id="bullet-char-template-9679" transform="scale(0.00048828125,-0.00048828125)">
+   <path d="M 813,0 C 632,0 489,54 383,161 276,268 223,411 223,592 223,773 276,916 383,1023 489,1130 632,1184 813,1184 992,1184 1136,1130 1245,1023 1353,916 1407,772 1407,592 1407,412 1353,268 1245,161 1136,54 992,0 813,0 Z"/>
+  </g>
+  <g id="bullet-char-template-8226" transform="scale(0.00048828125,-0.00048828125)">
+   <path d="M 346,457 C 273,457 209,483 155,535 101,586 74,649 74,723 74,796 101,859 155,911 209,963 273,989 346,989 419,989 480,963 531,910 582,859 608,796 608,723 608,648 583,586 532,535 482,483 420,457 346,457 Z"/>
+  </g>
+  <g id="bullet-char-template-8211" transform="scale(0.00048828125,-0.00048828125)">
+   <path d="M -4,459 L 1135,459 1135,606 -4,606 -4,459 Z"/>
+  </g>
+  <g id="bullet-char-template-61548" transform="scale(0.00048828125,-0.00048828125)">
+   <path d="M 173,740 C 173,903 231,1043 346,1159 462,1274 601,1332 765,1332 928,1332 1067,1274 1183,1159 1299,1043 1357,903 1357,740 1357,577 1299,437 1183,322 1067,206 928,148 765,148 601,148 462,206 346,322 231,437 173,577 173,740 Z"/>
+  </g>
+ </defs>
+ <g>
+  <g id="id2" class="Master_Slide">
+   <g id="bg-id2" class="Background"/>
+   <g id="bo-id2" class="BackgroundObjects"/>
+  </g>
+ </g>
+ <g class="SlideGroup">
+  <g>
+   <g id="container-id1">
+    <g id="id1" class="Slide" clip-path="url(#presentation_clip_path)">
+     <g class="Page">
+      <defs class="SlideBackground">
+       <g id="bg-id1" class="Background">
+        <path fill="rgb(102,102,102)" stroke="none" d="M 14987,29986 L -13,29986 -13,-13 29986,-13 29986,29986 14987,29986 Z"/>
+       </g>
+      </defs>
+      <g class="com.sun.star.drawing.CustomShape">
+       <g id="id3">
+        <rect class="BoundingBox" stroke="none" fill="none" x="7132" y="3382" width="14737" height="21237"/>
+        <path fill="none" stroke="rgb(255,255,255)" stroke-width="1235" stroke-linejoin="round" d="M 14500,24000 L 7750,24000 7750,4000 21250,4000 21250,24000 14500,24000 Z"/>
+       </g>
+      </g>
+      <g class="com.sun.star.drawing.CustomShape">
+       <g id="id4">
+        <rect class="BoundingBox" stroke="none" fill="none" x="7749" y="4049" width="13503" height="4003"/>
+        <path fill="rgb(255,255,255)" stroke="none" d="M 14500,8050 L 7750,8050 7750,4050 21250,4050 21250,8050 14500,8050 Z"/>
+        <path fill="none" stroke="rgb(255,255,255)" d="M 14500,8050 L 7750,8050 7750,4050 21250,4050 21250,8050 14500,8050 Z"/>
+       </g>
+      </g>
+      <g class="com.sun.star.drawing.CustomShape">
+       <g id="id5">
+        <rect class="BoundingBox" stroke="none" fill="none" x="7749" y="19999" width="13503" height="4003"/>
+        <path fill="rgb(255,255,255)" stroke="none" d="M 14500,24000 L 7750,24000 7750,20000 21250,20000 21250,24000 14500,24000 Z"/>
+        <path fill="none" stroke="rgb(255,255,255)" d="M 14500,24000 L 7750,24000 7750,20000 21250,20000 21250,24000 14500,24000 Z"/>
+       </g>
+      </g>
+      <g class="com.sun.star.drawing.CustomShape">
+       <g id="id6">
+        <rect class="BoundingBox" stroke="none" fill="none" x="13358" y="21559" width="2285" height="2284"/>
+        <image x="13358" y="21559" width="2285" height="2284" preserveAspectRatio="none" xlink:href="data:image/png;base64,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"/>
+        <path fill="rgb(0,0,0)" stroke="none" d="M 15501,22701 C 15501,22876 15455,23049 15367,23201 15279,23353 15153,23479 15001,23567 14849,23655 14676,23701 14500,23701 14325,23701 14152,23655 14000,23567 13848,23479 13722,23353 13634,23201 13546,23049 13500,22876 13500,22701 13500,22525 13546,22352 13634,22200 13722,22048 13848,21922 14000,21834 14152,21746 14325,21700 14500,21700 14676,21700 14849,21746 15001,21834 15153,21922 15279,22048 15367,22200 15455,22352 15501,22525 15501,22701 L 15501,22701 Z"/>
+       </g>
+      </g>
+     </g>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>
