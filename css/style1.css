@@ -1,0 +1,271 @@
+@font-face {
+    font-family: 'Lobster';
+    src: url('../fonts/Lobster-Regular.ttf');
+    font-family: 'Montserrat-Light';
+    src: url('../fonts/Montserrat/static/Montserrat-Light.ttf');    
+   }
+body {  /*основной*/
+    background-color: #d0d0d0;
+    font-family: Montserrat-Light;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: #3d3d3d;
+}
+/*надписи наверху*/
+.name_up {
+    font-family: Lobster;
+    font-size: xx-large;
+    letter-spacing: 3px;
+}
+.web_nadp {
+    margin-top: -2%;
+    margin-bottom: 4%;
+    letter-spacing: 2px;
+    color: white;
+    text-shadow: 1px 1px 1px white;
+}
+ /*меню */
+ .nav_menu {
+    border-bottom: 2px solid #dbdbdb;
+}
+#nav {
+    height: 60px;
+    position: fixed; 
+    top: 0;
+    right: 0;
+    width: 100%;
+}
+.navmy {
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items: center;
+    padding: 0;
+    margin:0.06%;
+    height: 96%;
+    border-bottom: 2px solid #c4c4c4;
+}
+.navmy  li{
+    flex-grow: 1; /*занимают блоки всё пространство*/
+    text-align: center;
+}
+.vertik_white {
+    height: 75%;
+    border-left:2px solid #dbdbdb;
+}
+.vertik_dark {
+    height: 75%;
+    border-left:2px solid #c4c4c4;
+}
+.navmy li a {
+  text-decoration: none;
+  display: block;
+  text-transform:uppercase; /*заглавные*/
+  color: #3d3d3d;
+  letter-spacing: 2px; /*растояние между буквами*/
+}
+#nav li a {
+  font-size: inherit;
+}
+#nav ul {
+    list-style:none;
+}
+.navmy-punkt { /*пункт меню выбран*/
+    font-weight: bold;
+}
+.navmy-punkt  a {
+    color: yellow !important;
+}
+.navmy-punkt a:hover{ /*наведение курсора на выбранный пункт*/
+    color: blue !important;
+}
+/*при наведении курсора на пункт меню, кроме активного*/
+.navmy li a:not(.navmy-punkt):hover{ 
+    font-weight: bold;
+    color: red;
+}
+
+.border_col {
+    border: 4px solid #6b6b6b;
+}
+/*Контакты вверху*/
+.ru-en a, .res_text {
+text-decoration:none !important;  /*отмена синего и фиолетового цвета*/
+color: black;
+text-transform:uppercase;
+}
+.telef img,
+.viber img,
+.whatsapp img,
+.telegram img,
+.emailk img {
+    height: 45px;
+    background-color: #1a1a1a;
+    width: 45px;
+    border-radius: 7px;
+}
+#zatemnenie {
+    /* кнопка резюме */
+    background: rgba(102, 102, 102, 0.5);
+    width: 100%;
+    height: 118%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    z-index: 998;
+}
+#oknosv {
+    width: 80%;
+	height:100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    z-index: 997;
+}
+#oknosv img {
+	width:90%;
+}
+#zatemnenie:target {
+    display: block;
+}
+/*кнопка вверх*/
+#button_up {
+    height: 30px;
+    width: 30px;
+    position: fixed; 
+    bottom: 2%;
+    right: 2%;
+    border: 2px solid black;
+}
+.borderDowUp {
+    border-top:2px solid #dbdbdb;
+    border-bottom: 2px solid #c4c4c4;
+}
+.header {
+    padding-bottom: 1%;
+    border-bottom: 2px solid #c4c4c4;
+}
+
+@media only screen and (max-width: 1024px) { /*планшет*/
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 6fr;
+		grid-template-rows: 1fr 6fr 2fr 2fr;
+        grid-template-areas: "header my_name"
+                              "header projects"
+                              "header about_me"
+                              "header kontakts_form";
+    }    
+    .my_name {
+        grid-area: my_name;
+    }
+    .header {
+        grid-area: header;
+        max-height: 100vh;
+    }
+    .projects {
+        grid-area: projects;
+    }
+    .about_me {
+        grid-area: about_me;
+    }
+    .kontakts_form {
+        grid-area: kontakts_form;
+    }
+}
+@media only screen and (min-width:1025px) { /*экраны больше планшета*/
+    .container {
+        display: grid;
+        grid-template-columns:1fr;
+		grid-template-rows: 1fr 3fr 4fr 2fr 3fr;
+        grid-template-areas: "header"
+                            "elements"
+                            "projects"
+                            "about_me"
+                            "kontakts_form" ;
+    }    
+    .elements {
+        grid-area: elements;
+    }
+    .header {
+        grid-area: header;
+        margin-top: 65px;
+        display: grid;
+        grid-template-columns:4fr 6fr 4fr;
+		grid-template-rows: 1fr;
+        grid-template-areas: "photo my_name kontakt_ap"
+    }
+    .my_name {
+        grid-area: my_name;
+    }
+    .projects {
+        grid-area: projects;
+    }
+    .about_me {
+        grid-area: about_me;
+    }
+    .kontakts_form {
+        grid-area: kontakts_form;
+    }
+    .photo img {
+        width: 100%;
+    }
+    .photo {
+        grid-area: photo;
+        text-align: right;
+        border-radius: 20%;
+        overflow: hidden;
+        max-width: 180px;
+        max-height: 160px;
+        margin-left: 30%;
+    }
+    .kontakt_ap{
+        grid-area: kontakt_ap;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .messag {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        width: 80%;
+        margin: 4% auto;
+    }
+    .whatsapp, .viber, .telegram, .telef, .emailk {
+        text-align: right;
+    }
+}
+@media only screen and (min-width:250px) {
+    .ru-en {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .lin:before {
+        content: "|";
+    }
+    .lin {
+        margin: auto 5px;
+    }
+}
+@media only screen and (max-width:249px) {
+    .lin:before {
+        content: "___";
+    }
+    .lin {
+        margin: -13px auto 0 auto;
+    }
+    .ru-en {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
