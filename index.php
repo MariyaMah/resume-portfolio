@@ -14,7 +14,7 @@
     <div class="container">
         <div class="header">
             <div class="photo border_col">
-                <img src="//mysite/image/photo2.svg" alt="Фото не отображается">
+                <img src="/image/photo2.svg" alt="Фото не отображается">
             </div>
 
              <div class="my_name">
